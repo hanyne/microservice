@@ -1,0 +1,29 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-gradient-primary shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#"><i class="fas fa-tractor me-2"></i>Agri Supervision</a>
+  </div>
+</nav>
+
+<div class="container mt-5">
+  <h1 class="text-center mb-5 text-primary fw-bold"><i class="fas fa-leaf me-2"></i>Plateforme Agricole</h1>
+
+  <ul class="nav nav-pills nav-justified mb-5 shadow-sm bg-white rounded-pill">
+    <li class="nav-item">
+      <a class="nav-link py-3" routerLink="/exploitations" routerLinkActive="active bg-primary text-white">
+        <i class="fas fa-farm me-2"></i>Exploitations
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link py-3" routerLink="/capteurs" routerLinkActive="active bg-primary text-white">
+        <i class="fas fa-tachometer-alt me-2"></i>Capteurs
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link py-3" routerLink="/alertes" routerLinkActive="active bg-primary text-white">
+        <i class="fas fa-bell me-2"></i>Alertes
+      </a>
+    </li>
+  </ul>
+
+  <router-outlet></router-outlet>
+</div>
